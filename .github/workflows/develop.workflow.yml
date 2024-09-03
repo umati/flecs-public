@@ -63,7 +63,7 @@ jobs:
 
     steps:
       - name: Download packages
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           path: out/
 
@@ -97,7 +97,7 @@ jobs:
 
     steps:
       - name: Download Docker image archives
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           path: out/
 
